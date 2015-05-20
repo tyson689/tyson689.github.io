@@ -1,7 +1,48 @@
 p {
-    color: red;
+    color: rgb(183,98,21);
+}
+
+h1{
+	font-family: Comic Sans MS, helvetica, sans-serif;
 }
 
 a {
-    color: blue;
+    color: B35F3B;
+}
+
+
+.importantQuote{
+	border: 200 px;
+	border-style: dashed;
+	border-width: 3px;
+	margin: 30px;
+	padding: 25px;
+	border-color: rgb(32,32,32)
+}
+#mainContent {
+	margin-left: 110px;
+	background-color: rgb(69,69,69);
+}
+
+#navBar {
+	background-color: rgb(132,32,20);
+	margin-top: 0;
+	margin-left: 0;
+	position: fixed;
+	height: 100%;
+	padding-left: 10;
+	padding-right: 10;
+	padding-top: 15;
+	top: 0;
+	left: 0;
+}
+
+#navBar ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+#navBar ul {
+	list-style-type: none;
+	margin-left: -10;
 }
